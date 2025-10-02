@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swift - Desafio FIAP</title>
+  <link rel="stylesheet" href="../src/css/styles.css" />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="app-container">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <div class="logo-icon">S</div>
+          <span class="logo-text">Swift</span>
+        </div>
+        <div class="user-info">
+          <div class="user-avatar">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="user-details">
+            <div class="user-name">Claudio Vinícius</div>
+            <div class="user-position">3ª Posição</div>
+          </div>
+        </div>
+      </div>
+      <nav class="sidebar-nav">
+        <div class="nav-section">
+          <div class="nav-section-title">Vendedor</div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-home"></i>
+                <span>Início</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-target"></i>
+                <span>Metas</span>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a href="#" class="nav-link">
+                <i class="fas fa-tasks"></i>
+                <span>Missões</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-trophy"></i>
+                <span>Disputa</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-section">
+          <div class="nav-section-title">Gerente</div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-chart-bar"></i>
+                <span>Painel Gerente</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-chart-line"></i>
+                <span>Ranking Regional</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-users"></i>
+                <span>Disputas</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-cog"></i>
+                <span>Gestão de Missões</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-shopping-cart"></i>
+                <span>Gestão de Vendas</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="sidebar-footer">
+        <a href="#" class="settings-link">
+          <i class="fas fa-cog"></i>
+          <span>Configurações</span>
+        </a>
+      </div>
+    </aside>
+    <main class="main-content">
+      <header class="main-header">
+        <div class="header-left">
+          <div class="greeting">
+            <div class="greeting-icon">
+              <i class="fas fa-user-circle"></i>
+            </div>
+            <div class="greeting-text">
+              <h1>Olá, Claudio</h1>
+              <p>3ª Posição</p>
+            </div>
+          </div>
+        </div>
+        <div class="header-right">
+          <button class="header-btn">
+            <i class="fas fa-bell"></i>
+          </button>
+          <button class="header-btn">
+            <i class="fas fa-user"></i>
+          </button>
+          <button class="header-btn">
+            <i class="fas fa-th"></i>
+          </button>
+        </div>
+      </header>
+      <div class="content-area">
+        <div class="page-header">
+          <h2>Disputa</h2>
+          <p>Compare seu desempenho com outras lojas</p>
+        </div>
+        <div class="flexbox">
+          <div class="caixinha">
+            <h2 class="titulo-2">Minha Loja</h2>
+            <div class="grafico-container">
+              <div class="coluna">
+                <div class="barra" style="--altura: 130px;"></div>
+                <p class="legenda">05/06</p>
+              </div>
+              <div class="coluna">
+                <div class="barra" style="--altura: 160px;"></div>
+                <p class="legenda">11/06</p>
+              </div>
+              <div class="coluna">
+                <div class="barra" style="--altura: 150px;"></div>
+                <p class="legenda">05/06</p>
+              </div>
+              <div class="coluna">
+                <div class="barra" style="--altura: 100px;"></div>
+                <p class="legenda">11/06</p>
+              </div>
+              <div class="coluna">
+                <div class="barra" style="--altura: 200px;"></div>
+                <p class="legenda">24/06</p>
+              </div>
+              <div class="coluna">
+                <div class="barra" style="--altura: 240px;"></div>
+                <p class="legenda">15/06</p>
+              </div>
+              <div class="coluna">
+                <div class="barra" style="--altura: 170px;"></div>
+                <p class="legenda">16/06</p>
+              </div>
+            </div>
+          </div>
+          <div class="caixinha">
+            <h2 class="titulo-2">Loja Adversária</h2>
+            <div class="grafico-container">
+              <div class="coluna">
+                <div class="barra" style="--altura: 130px;"></div>
+                <p class="legenda">05/06</p>
+              </div>
+              <div class="coluna">
+                <div class="barra" style="--altura: 160px;"></div>
+                <p class="legenda">11/06</p>
+              </div>
+              <div class="coluna">
+                <div class="barra" style="--altura: 150px;"></div>
+                <p class="legenda">05/06</p>
+              </div>
+              <div class="coluna">
+                <div class="barra" style="--altura: 100px;"></div>
+                <p class="legenda">11/06</p>
+              </div>
+              <div class="coluna">
+                <div class="barra" style="--altura: 200px;"></div>
+                <p class="legenda">24/06</p>
+              </div>
+              <div class="coluna">
+                <div class="barra" style="--altura: 240px;"></div>
+                <p class="legenda">15/06</p>
+              </div>
+              <div class="coluna">
+                <div class="barra" style="--altura: 170px;"></div>
+                <p class="legenda">16/06</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flexbox-2">
+          <div class="caixinha-2">
+          <h2>23,3% <span class="texto-diferente">VS</span> 67,7%</h2>
+          </div>
+        </div>
+        <!-- ================ -->
+        <div class="card-grafico">
+        <h2 class="titulo-grafico">Vendas por Categoria</h2>
+        <div class="conteudo-grafico">
+            <div class="grafico-rosca"></div>
+
+            <ul class="legenda">
+                <li>
+                    <span class="ponto-cor" style="background-color: #e64c3c;"></span>
+                    <span class="texto-legenda">Frangos</span>
+                    <span class="porcentagem">45%</span>
+                </li>
+                <li>
+                    <span class="ponto-cor" style="background-color: #E91E63;"></span>
+                    <span class="texto-legenda">Bovinos</span>
+                    <span class="porcentagem">15%</span>
+                </li>
+                <li>
+                    <span class="ponto-cor" style="background-color: #27ae60;"></span>
+                    <span class="texto-legenda">Legumes</span>
+                    <span class="porcentagem">30%</span>
+                </li>
+                <li>
+                    <span class="ponto-cor" style="background-color: #9b59b6;"></span>
+                    <span class="texto-legenda">Suínos</span>
+                    <span class="porcentagem">5%</span>
+                </li>
+                <li>
+                    <span class="ponto-cor" style="background-color: #f39c12;"></span>
+                    <span class="texto-legenda">Tempero</span>
+                    <span class="porcentagem">5%</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+           <!-- =============== -->
+      </div>
+    </main>
+  </div>
+  <script src="../src/js/components/script.js"></script>
+</body>
+</html>
+                    </div>
+                  </div>
+            </div>
+          </div>
+      </main>
+    </div>
+
+    <script src="../src/js/components/script.js"></script>
+</body>
+</html>
